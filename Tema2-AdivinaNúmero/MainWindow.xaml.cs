@@ -31,13 +31,13 @@ namespace Tema2_AdivinaNúmero
 
         }
 
-        private void reiniciar_Click(object sender, RoutedEventArgs e)
+        private void Reiniciar_Click(object sender, RoutedEventArgs e)
         {
             numeroAdivinar=r.Next(0, 101);
             respuesta.Text = "";
         }
 
-        private void comprobar_Click(object sender, RoutedEventArgs e)
+        private void Comprobar_Click(object sender, RoutedEventArgs e)
         {
 
             int num = Int32.Parse(numero.Text);
@@ -49,9 +49,6 @@ namespace Tema2_AdivinaNúmero
 
         }
 
-        private void numero_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
+  
     }
 }

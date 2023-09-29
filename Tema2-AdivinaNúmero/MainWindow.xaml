@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tema2_AdivinaNúmero"
         mc:Ignorable="d"
-        Title="Tema2-AdivinaNumero" Height="200" Width="500">
+        Title="Tema2-AdivinaNumero" Height="200" Width="400">
     <Grid>
         <TextBlock 
             HorizontalAlignment="Left" 
@@ -19,7 +19,7 @@
                 HorizontalAlignment="Left" 
                 Margin="33,102,0,0" 
                 VerticalAlignment="Top"
-                Click="comprobar_Click"/>
+                Click="Comprobar_Click"/>
         
         <Button x:Name="reiniciar"
                 Content="Reiniciar" 
@@ -27,7 +27,7 @@
                 Margin="0,102,0,0" 
                 VerticalAlignment="Top" 
                 Width="64" 
-                Click="reiniciar_Click"/>
+                Click="Reiniciar_Click"/>
 
         <TextBox x:Name="numero"
                  HorizontalAlignment="Left" 
@@ -35,7 +35,6 @@
                  TextWrapping="Wrap"
                  VerticalAlignment="Top" 
                  Width="193" 
-                 TextChanged="numero_TextChanged"
                  Text=""/>
             
         <TextBlock x:Name="respuesta"
